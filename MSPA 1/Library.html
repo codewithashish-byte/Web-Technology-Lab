@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRARY BOOK SYSTEM</title>
+<link rel="stylesheet" href="stylesheet.css">
+    <!-- <style>
+        body {
+            margin: 0;
+        }
+
+        .bg-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        h1 {
+            color: lime;
+            text-align: center;
+            font-size: 45px;
+            text-shadow: 3px 3px 5px black;
+        }
+
+        form {
+            width: 350px;
+            margin: 40px auto;
+            padding: 30px;
+            background: rgba(255,255,255,0.8);
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+            text-align: center;
+        }
+
+        input {
+            width: 250px;
+            padding: 10px;
+            border: 2px solid green;
+            border-radius: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: red;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: green;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: darkgreen;
+        }
+    </style> -->
+</head>
+<body style="background-image: url('images.jpg');">
+     
+
+ <!-- <video class="bg-video" src = "Student-bg.mp4" autoplay muted loop controls >
+    </video> -->
+
+
+    <h1 style="color:green;text-align:center;font-size:50px">
+        Library Management System
+    </h1>
+
+    <form onsubmit="return showPopups">
+        Name: <br>
+        <input type="text" id="fname"><br><br>
+
+        LastName: <br>
+        <input type="text" id="lname"><br><br>
+
+        Age: <br>
+        <input type="number" id="age" min="1" max="120"><br><br>
+
+        Email: <br>
+        <input type="email" id="email"><br><br>
+
+        Password: <br>
+        <input type="password" id="password"><br><br>
+
+        Phone Number: <br>
+        <input type="text" id="phone"><br><br>
+
+        <button type="button" onclick="showPopups()">Submit</button>
+        <button type="reset">reset</button>
+    </form>
+
+    <script src="script.js"></script> -->
+
+    <!-- //LIBRARY SLOTS -->
+
+  <h2 style="color:green;text-align:center;font-size:50px">
+        Library Book Registration
+    </h2>
+    <form>
+        <label for="bookid">Book ID:</label><br>
+        <input type="text" id="bookid" name="bookid" required><br><br>
+
+        <label for="title">Book Title:</label><br>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="author">Author Name:</label><br>
+        <input type="text" id="author" name="author" required><br><br>
+
+        <label for="category">Category:</label><br>
+        <select id="category" name="category">
+            <option value="fiction">Fiction</option>
+            <option value="science">Science</option>
+            <option value="history">History</option>
+            <option value="programming">Programming</option>
+        </select><br><br>
+
+        <button type="submit">Add Book</button>
+        <button type="reset">Clear</button>  
+</body>
+</html>
