@@ -1,0 +1,1 @@
+Open index.html in a browser. Features: product cards, add/remove/clear cart, quantity count, total using reduce(), and fetch from Fake Store API with fallback products. App.tsx is a simple React + TypeScript version. For Git commands, see ../GIT_COMMANDS.txt.

@@ -1,0 +1,1 @@
+Open index.html in a browser. Features: add/complete/delete tasks, map/filter/reduce, and fetch sample tasks from JSONPlaceholder. App.tsx is the simple React + TypeScript version. For Git commands, see ../GIT_COMMANDS.txt.

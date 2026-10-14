@@ -1,0 +1,28 @@
+GIT AND GITHUB COMMANDS (run in the project folder)
+
+1. Initialize repository:
+   git init
+
+2. Check files:
+   git status
+
+3. Stage and commit:
+   git add .
+   git commit -m "Add web lab project"
+
+4. Create and switch to a branch:
+   git checkout -b feature-update
+
+5. Make a small code change, then commit:
+   git add .
+   git commit -m "Update project interface"
+
+6. Connect to your GitHub repository (replace URL with your own):
+   git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+   git branch -M main
+   git push -u origin main
+   git push -u origin feature-update
+
+Note: Create an empty repository on GitHub first. If Git asks you to identify yourself:
+   git config --global user.name "Your Name"
+   git config --global user.email "you@example.com"
